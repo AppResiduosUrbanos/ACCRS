@@ -13,6 +13,7 @@ namespace BusinessEntities
         public int int_idCoordenada { get; set; }
         public int int_estado { get; set; }
         public string str_descDetPonto { get; set; }
+       
 
     }
 }
