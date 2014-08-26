@@ -1,0 +1,274 @@
+
+.container {
+padding-left: 20px;
+padding-right: 20px;
+background-color:transparent;
+
+}
+
+.row {margin:0 auto;max-width:1140px;min-width:755px;width:100%;}
+
+.onecol, .twocol, .threecol, .fourcol, .fivecol, .sixcol, .sevencol, .eightcol, .ninecol, .tencol, .elevencol {
+margin-right: 3.8%;
+float: left;
+min-height: 1px;
+}
+
+.row .onecol {
+width: 4.85%;
+}
+
+.row .twocol {
+width: 13.45%;
+}
+
+.row .threecol {
+width: 22.05%;
+}
+
+.row .fourcol {
+width: 30.75%;
+}
+
+.row .fivecol {
+width: 39.45%;
+}
+
+.row .sixcol {
+width: 48%;
+}
+
+.row .sevencol {
+width: 56.75%;
+}
+
+.row .eightcol {
+width: 65.4%;
+}
+
+.row .ninecol {
+width: 74.05%;
+}
+
+.row .tencol {
+width: 82.7%;
+}
+
+.row .elevencol {
+width: 91.35%;
+}
+
+.row .twelvecol {
+width: 100%;
+float: left;
+}
+
+.last {
+margin-right: 0px;
+}
+
+img, object, embed {
+max-width: 100%;
+}
+
+img {
+	height: auto;
+}
+
+
+@media handheld, only screen and (max-width: 800px) {
+
+
+
+
+#FooterTree{
+	position: absolute;
+	left: 20px;
+	top:26px;
+	color:white;
+
+}
+
+#FooterTwo{
+	position: absolute;
+	right:90px;
+	top:26px;
+	color:white;
+
+}
+
+h1{
+	font-size:34px;
+	padding:10px;
+
+
+
+}
+	
+h2{
+	padding:10px;
+
+
+
+}	
+
+#logo{
+	margin-left:5px;
+	
+	
+}
+
+
+}
+
+
+
+@media handheld, only screen and (max-width: 768px) {
+
+	
+	
+.row, body, .container {
+	width: 100%;
+	min-width: 0;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	float:left;
+	}
+	  
+	
+	
+.row .onecol, .row .twocol, .row .threecol, .row .fourcol, .row .fivecol, .row .sixcol, .row .sevencol, .row .eightcol, .row .ninecol, .row .tencol, .row .elevencol, .row .twelvecol {
+	width: auto;
+	float: none;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-left: 20px;
+	padding-right: 20px;
+	}
+	
+
+
+}
+
+
+@media handheld, only screen and (max-width: 600px) {
+	
+
+
+   
+nav{
+	float: left;
+	margin-top:67px;
+	left:12px;
+	border:none;
+	width:90%;
+
+
+	}
+	
+nav ul{	
+	margin: 0px;
+	padding: 0px;
+	float: none;
+}
+
+nav ul li{
+	float: none;
+
+}
+
+
+nav ul li a{
+	font-size:17px;
+	line-height:normal;
+	color:#666666;
+	text-align:left;
+	text-decoration:none;
+	border-bottom: 1px solid #C8C8C8;
+	
+
+	}
+	
+nav ul li a:hover{
+	color:#888;
+
+}
+
+
+
+#intro{
+	width:100%;
+	position: relative;
+	float: left;
+	background:transparent;
+	margin-top:300px;
+	margin-bottom:20px;
+
+	
+	}
+	
+
+#logo{
+	margin-left:18px;
+	
+	
+}
+
+#FooterTwo{
+	font-size:13px;
+
+}
+
+
+#FooterTree{
+	display:none;
+	
+}
+
+}
+
+
+@media handheld, only screen and (max-width: 480px) {
+	
+.pulledquote{
+	width:88%;
+	
+	
+}
+	
+	
+	
+	
+}
+   
+
+@media handheld, only screen and (max-width: 320px) {
+
+   
+h1{
+	font-size:20px;
+	padding:10px;
+
+
+
+}
+
+ h1 span{
+	font-size: 18px;
+
+
+
+}
+
+	
+h2{
+	padding:10px;
+
+
+
+}	
+
+
+}
