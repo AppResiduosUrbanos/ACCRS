@@ -20,7 +20,7 @@
         var map;
         var latitud;
         var longitud;
-        var Lista;
+        var Lista; 
 
         $(document).ready(function () {
             localizame();//Carga la pagina , carga nuestra posicion
