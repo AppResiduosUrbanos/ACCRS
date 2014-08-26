@@ -10,5 +10,13 @@ namespace BusinessLogicalLayer
 {
     public class BLLCoordenada
     {
+
+        DALCoordenada dalLocalizacao = new DALCoordenada();
+
+        public List<BECoordenada> ObterCorrdenadas()
+        {
+            return dalLocalizacao.ObterCorrdenadas();
+
+        }
     }
 }

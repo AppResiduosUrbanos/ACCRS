@@ -17,6 +17,7 @@ namespace DataAccessLayer
         public SqlConnection Conectar() 
         {
             conexao = new SqlConnection(ConfigurationManager.ConnectionStrings["conexao"].ConnectionString);
+            conexao.Open();
             return conexao;
         }
 

@@ -57,18 +57,116 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Web.config" />
+    <Content Include="css\1140.css" />
+    <Content Include="css\css.css" />
+    <Content Include="css\styles.css" />
+    <Content Include="css\style_ie.css" />
+    <Content Include="fonts\Apache License Version 2.txt" />
+    <Content Include="fonts\demo.html" />
+    <Content Include="fonts\OpenSans-Bold-webfont.svg" />
+    <Content Include="fonts\OpenSans-BoldItalic-webfont.svg" />
+    <Content Include="fonts\OpenSans-ExtraBold-webfont.svg" />
+    <Content Include="fonts\OpenSans-ExtraBoldItalic-webfont.svg" />
+    <Content Include="fonts\OpenSans-Italic-webfont.svg" />
+    <Content Include="fonts\OpenSans-Light-webfont.svg" />
+    <Content Include="fonts\OpenSans-LightItalic-webfont.svg" />
+    <Content Include="fonts\OpenSans-Regular-webfont.svg" />
+    <Content Include="fonts\OpenSans-Semibold-webfont.svg" />
+    <Content Include="fonts\OpenSans-SemiboldItalic-webfont.svg" />
+    <Content Include="fonts\stylesheet.css" />
+    <Content Include="js\css3-mediaqueries.js" />
+    <Content Include="js\jMyCarousel.js" />
+    <Content Include="PaginaPrincipal.aspx" />
+    <Content Include="images\bg.png" />
+    <Content Include="images\footer.png" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\picture1.jpg" />
+    <Content Include="images\picture2.jpg" />
+    <Content Include="images\picture3.jpg" />
+    <Content Include="js\html5.js" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web\IntranetPrincipal.aspx" />
+    <Content Include="Web\VisualizarMapa.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="PaginaPrincipal.aspx.cs">
+      <DependentUpon>PaginaPrincipal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PaginaPrincipal.aspx.designer.cs">
+      <DependentUpon>PaginaPrincipal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Principal.Master.cs">
+      <DependentUpon>Principal.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Principal.Master.designer.cs">
+      <DependentUpon>Principal.Master</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Web\Formulario web1.aspx.cs">
+      <DependentUpon>IntranetPrincipal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Formulario web1.aspx.designer.cs">
+      <DependentUpon>IntranetPrincipal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\VisualizarMapa.aspx.cs">
+      <DependentUpon>VisualizarMapa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\VisualizarMapa.aspx.designer.cs">
+      <DependentUpon>VisualizarMapa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Intranet.Master.cs">
+      <DependentUpon>Intranet.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Intranet.Master.designer.cs">
+      <DependentUpon>Intranet.Master</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Principal.Master" />
+    <Content Include="fonts\OpenSans-Bold-webfont.eot" />
+    <Content Include="fonts\OpenSans-Bold-webfont.ttf" />
+    <Content Include="fonts\OpenSans-Bold-webfont.woff" />
+    <Content Include="fonts\OpenSans-BoldItalic-webfont.eot" />
+    <Content Include="fonts\OpenSans-BoldItalic-webfont.ttf" />
+    <Content Include="fonts\OpenSans-BoldItalic-webfont.woff" />
+    <Content Include="fonts\OpenSans-ExtraBold-webfont.eot" />
+    <Content Include="fonts\OpenSans-ExtraBold-webfont.ttf" />
+    <Content Include="fonts\OpenSans-ExtraBold-webfont.woff" />
+    <Content Include="fonts\OpenSans-ExtraBoldItalic-webfont.eot" />
+    <Content Include="fonts\OpenSans-ExtraBoldItalic-webfont.ttf" />
+    <Content Include="fonts\OpenSans-ExtraBoldItalic-webfont.woff" />
+    <Content Include="fonts\OpenSans-Italic-webfont.eot" />
+    <Content Include="fonts\OpenSans-Italic-webfont.ttf" />
+    <Content Include="fonts\OpenSans-Italic-webfont.woff" />
+    <Content Include="fonts\OpenSans-Light-webfont.eot" />
+    <Content Include="fonts\OpenSans-Light-webfont.ttf" />
+    <Content Include="fonts\OpenSans-Light-webfont.woff" />
+    <Content Include="fonts\OpenSans-LightItalic-webfont.eot" />
+    <Content Include="fonts\OpenSans-LightItalic-webfont.ttf" />
+    <Content Include="fonts\OpenSans-LightItalic-webfont.woff" />
+    <Content Include="fonts\OpenSans-Regular-webfont.eot" />
+    <Content Include="fonts\OpenSans-Regular-webfont.ttf" />
+    <Content Include="fonts\OpenSans-Regular-webfont.woff" />
+    <Content Include="fonts\OpenSans-Semibold-webfont.eot" />
+    <Content Include="fonts\OpenSans-Semibold-webfont.ttf" />
+    <Content Include="fonts\OpenSans-Semibold-webfont.woff" />
+    <Content Include="fonts\OpenSans-SemiboldItalic-webfont.eot" />
+    <Content Include="fonts\OpenSans-SemiboldItalic-webfont.ttf" />
+    <Content Include="fonts\OpenSans-SemiboldItalic-webfont.woff" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+    <Content Include="Web\Intranet.Master" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BusinessEntities\BusinessEntities.csproj">
@@ -80,6 +178,7 @@
       <Name>BusinessLogicalLayer</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
