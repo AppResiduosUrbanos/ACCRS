@@ -88,6 +88,7 @@
       <SubType>Designer</SubType>
     </Content>
     <Content Include="Web\IntranetPrincipal.aspx" />
+    <Content Include="Web\VerificarInformacao.aspx" />
     <Content Include="Web\VisualizarMapa.aspx" />
   </ItemGroup>
   <ItemGroup>
@@ -112,6 +113,13 @@
     </Compile>
     <Compile Include="Web\Formulario web1.aspx.designer.cs">
       <DependentUpon>IntranetPrincipal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\VerificarInformacao.aspx.cs">
+      <DependentUpon>VerificarInformacao.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\VerificarInformacao.aspx.designer.cs">
+      <DependentUpon>VerificarInformacao.aspx</DependentUpon>
     </Compile>
     <Compile Include="Web\VisualizarMapa.aspx.cs">
       <DependentUpon>VisualizarMapa.aspx</DependentUpon>
