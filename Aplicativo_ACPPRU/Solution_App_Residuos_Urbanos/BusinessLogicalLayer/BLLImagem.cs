@@ -10,5 +10,12 @@ namespace BusinessLogicalLayer
 {
     public class BLLImagem
     {
+        DALImagem dalImagem = new DALImagem();
+
+        public List<BEImagem> ObterImagens()
+        {
+            return dalImagem.ObterImagens();
+
+        }
     }
 }

@@ -71,8 +71,8 @@
     <li><a href="IntranetPrincipal.aspx">Home</a></li>
     <li><a href="#">Relatorios</a></li>
 	<li><a href="VisualizarMapa.aspx">Visualizar Mapa</a></li>
-	<li><a href="#">Verificar Informacao</a></li>
-    <li><a href="#">Manter</a></li>
+	<li><a href="VerificarInformacao.aspx">Verificar Informacao</a></li>
+    <li><a href="MantPessoas.aspx">Manter</a></li>
     <li><a href="#">Minha Conta</a></li>
 
     </ul>

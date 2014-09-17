@@ -7,12 +7,15 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script> 
+     <br />
+     <br />
     <section>
         <article>
             <div id="map_canvas" style="width:100%; height:400px;"></div>
         </article>
     </section>
-
+     <br />
+     <br />
     <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script> 
    
     <script type="text/javascript">

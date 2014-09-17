@@ -22,11 +22,7 @@ namespace DataAccessLayer
         public List<BECoordenada> ObterCorrdenadas()
         {
             List<BECoordenada> listCoordenadas = new List<BECoordenada>();
-
-            //SqlCommand cmd = new SqlCommand("StoreProcedureName",con);
-            //cmd.CommandType=CommandType.StoreProcedure;
-            //cmd.Parameters.AddWithValue("@value",txtValue.Text);
-            //int rowAffected=cmd.ExecuteNonQuery();            
+        
 
             try
             {

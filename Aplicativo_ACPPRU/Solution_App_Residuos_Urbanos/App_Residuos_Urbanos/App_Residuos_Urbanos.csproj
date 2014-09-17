@@ -58,6 +58,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="css\1140.css" />
+    <Content Include="css\BootStrap.mim.css" />
     <Content Include="css\css.css" />
     <Content Include="css\styles.css" />
     <Content Include="css\style_ie.css" />
@@ -74,6 +75,11 @@
     <Content Include="fonts\OpenSans-Semibold-webfont.svg" />
     <Content Include="fonts\OpenSans-SemiboldItalic-webfont.svg" />
     <Content Include="fonts\stylesheet.css" />
+    <Content Include="Imagens_Verificacao\Basura1.jpg" />
+    <Content Include="Imagens_Verificacao\Basura2.jpg" />
+    <Content Include="Imagens_Verificacao\Basura3.jpg" />
+    <Content Include="Imagens_Verificacao\Basura5.jpg" />
+    <Content Include="Imagens_Verificacao\batman-el-caballero-oscuro_1366x768.jpg" />
     <Content Include="js\css3-mediaqueries.js" />
     <Content Include="js\jMyCarousel.js" />
     <Content Include="PaginaPrincipal.aspx" />
@@ -87,7 +93,11 @@
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="Web\AtualizarPessoa.aspx" />
     <Content Include="Web\IntranetPrincipal.aspx" />
+    <Content Include="Web\AgregarPersona.aspx" />
+    <Content Include="Web\Login.aspx" />
+    <Content Include="Web\MantPessoas.aspx" />
     <Content Include="Web\VerificarInformacao.aspx" />
     <Content Include="Web\VisualizarMapa.aspx" />
   </ItemGroup>
@@ -107,12 +117,40 @@
       <DependentUpon>Principal.Master</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Web\AtualizarPessoa.aspx.cs">
+      <DependentUpon>AtualizarPessoa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\AtualizarPessoa.aspx.designer.cs">
+      <DependentUpon>AtualizarPessoa.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Web\Formulario web1.aspx.cs">
       <DependentUpon>IntranetPrincipal.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Web\Formulario web1.aspx.designer.cs">
       <DependentUpon>IntranetPrincipal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\AgregarPersona.aspx.cs">
+      <DependentUpon>AgregarPersona.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\AgregarPersona.aspx.designer.cs">
+      <DependentUpon>AgregarPersona.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\MantPessoas.aspx.cs">
+      <DependentUpon>MantPessoas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\MantPessoas.aspx.designer.cs">
+      <DependentUpon>MantPessoas.aspx</DependentUpon>
     </Compile>
     <Compile Include="Web\VerificarInformacao.aspx.cs">
       <DependentUpon>VerificarInformacao.aspx</DependentUpon>
@@ -186,7 +224,6 @@
       <Name>BusinessLogicalLayer</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
