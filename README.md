@@ -1,9 +1,6 @@
 ACCRS
 =====
 
-Aplicacao Residuos Urbanos
+Aplicaçãp Residuos Urbanos.
 
-Probando xDDD
-Probando em 1213xDDDD
-
-Esteban se la come doblada aunque es un chucha en GitHUB! xD
+Trabalho de conclusão de curso 
